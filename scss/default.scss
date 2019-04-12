@@ -1,25 +1,56 @@
-
 body {
-    color:red;
+    color: red;
 }
+
 #page-footer {
     height: 100px;
     background-color: blue;
 }
-#page-login-index{
-    #region-main-box{ 
+
+#page-login-index {
+    #region-main-box {
         background-image: url("/theme/uvt/images/night.jpg");
     }
-    .col-xl-3{ 
-        .card{
+
+    .col-xl-3 {
+        .card {
             border-radius: 20px;
-            form{
-            .row{
-                
+
+            form {
+                .row {
                     justify-content: center;
                     align-items: baseline;
                 }
             }
         }
+    }
+}
+
+.fixed-top {
+    background-color: #002547 !important;
+
+    a {
+        color: white !important;
+    }
+
+    .usermenu {
+        .dropdown-menu {
+            background-color: #002547 !important;
         }
     }
+
+    .fa-bell {
+        color: white !important;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        background-color: #5b636b !important;
+    }
+
+    .navbar-nav {
+        .dropdown-menu {
+            background-color: #002547 !important;
+        }
+    }
+}
