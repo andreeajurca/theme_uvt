@@ -3,6 +3,10 @@ body {
     color:red;
 }
 #page-footer {
-    height: 100px;
-    background-color: blue;
+    height: 125px;
+    background-color: #27323a;
+    color: #1E90FF;
+    a:link {
+        text-decoration: none;
+      }
 }
