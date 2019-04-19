@@ -1,62 +1,59 @@
 body {
-    color: red;
+  color: red;
 }
 
 #page-footer {
-    height: 125px;
-    background-color: #27323a;
-    color: #1E90FF;
-    a:link {
-        text-decoration: none;
-      }
-    height: 100px;
-    background-color: blue;
+  background-color: #002547 !important;
+  color: #1e90ff;
+  a:link {
+    text-decoration: none;
+  }
 }
 
 #page-login-index {
-    #region-main-box {
-        background-image: url("/theme/uvt/images/night.jpg");
-    }
+  #region-main-box {
+    background-image: url("/theme/uvt/images/night.jpg");
+  }
 
-    .col-xl-3 {
-        .card {
-            border-radius: 20px;
+  .col-xl-3 {
+    .card {
+      border-radius: 20px;
 
-            form {
-                .row {
-                    justify-content: center;
-                    align-items: baseline;
-                }
-            }
+      form {
+        .row {
+          justify-content: center;
+          align-items: baseline;
         }
+      }
     }
+  }
 }
 
 .fixed-top {
-    background-color: #002547 !important;
+  background-color: #002547 !important;
 
-    a {
-        color: white !important;
-    }
+  a {
+    color: white !important;
+  }
 
-    .usermenu {
-        .dropdown-menu {
-            background-color: #002547 !important;
-        }
+  .usermenu {
+    .dropdown-menu {
+      background-color: #002547 !important;
     }
+  }
 
-    .fa-bell {
-        color: white !important;
-    }
+  .fa-bell {
+    color: white !important;
+  }
 
-    .dropdown-item:hover,
-    .dropdown-item:focus {
-        background-color: #5b636b !important;
-    }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #5b636b !important;
+  }
 
-    .navbar-nav {
-        .dropdown-menu {
-            background-color: #002547 !important;
-        }
+  .navbar-nav {
+    .dropdown-menu {
+      background-color: #002547 !important;
     }
+  }
 }
