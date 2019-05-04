@@ -49,8 +49,8 @@ $THEME->layouts = [
     ),
     // Main course page.
     'course' => array(
-        'file' => 'columns2.php',
-        'regions' => array('side-pre'),
+        'file' => 'mycourse.php',
+        'regions' => array('side-pre','left','right'),
         'defaultregion' => 'side-pre',
         'options' => array('langmenu' => true),
     ),
