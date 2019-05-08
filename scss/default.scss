@@ -1,18 +1,18 @@
+$generalcolor: #2a293e;
+$secondarycolor: #e4ac23;
+
 body {
-  color: red;
-  background-color: #223a5e;
+  background-color: $generalcolor;
 }
 
 #page-footer {
-  background-color: #002547 !important;
-  color: #1e90ff;
-  a:link {
-    text-decoration: none;
-  }
+  background-color: $generalcolor !important;
+  color: white;
+  border-top: 1px solid $secondarycolor !important;
 }
 
 #nav-drawer {
-  background-color: #223a5e;
+  background-color: $generalcolor;
 }
 #page-login-index {
   #region-main-box {
@@ -34,7 +34,7 @@ body {
 }
 
 .fixed-top {
-  background-color: #002547 !important;
+  background-color: #2a293e !important;
 
   a {
     color: white !important;
@@ -42,7 +42,7 @@ body {
 
   .usermenu {
     .dropdown-menu {
-      background-color: #002547 !important;
+      background-color: $generalcolor !important;
     }
   }
 
@@ -52,12 +52,12 @@ body {
 
   .dropdown-item:hover,
   .dropdown-item:focus {
-    background-color: #5b636b !important;
+    background-color: $secondarycolor !important;
   }
 
   .navbar-nav {
     .dropdown-menu {
-      background-color: #002547 !important;
+      background-color: $generalcolor !important;
     }
   }
 }
@@ -82,8 +82,40 @@ body {
     color: white;
   }
 
-.card {
-  width: auto;
-  color: white;
-  background-color: #002547;
+  .card {
+    width: auto;
+    color: white;
+    background-color: $generalcolor;
+  }
+}
+
+.navbar .navbar-nav .nav-item:hover {
+  background-color: $secondarycolor !important;
+}
+
+.tool_dataprivacy,
+.purgecaches {
+  display: none !important;
+}
+
+.navbar button[data-action="toggle-drawer"] {
+  background-color: #ffff !important;
+}
+
+#nav-drawer .list-group-item {
+  background-color: $generalcolor;
+  border: 1px solid rgba(255, 255, 255, 0.125) !important;
+  color: #fff !important;
+}
+
+#page-my-index {
+  background-color: $generalcolor !important;
+}
+.navbar {
+  box-shadow: 0px 2px 0px 0px $secondarycolor !important;
+}
+
+#page-site-index #region-main-box,
+#page-site-index #page-header {
+  display: none !important;
 }
