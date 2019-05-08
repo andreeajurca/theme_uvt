@@ -61,6 +61,7 @@ body {
     }
   }
 }
+
 .col-md-5.row.p-0.event {
   .title {
     font-size: 18px;
@@ -80,4 +81,9 @@ body {
     left: 20px;
     color: white;
   }
+
+.card {
+  width: auto;
+  color: white;
+  background-color: #002547;
 }
