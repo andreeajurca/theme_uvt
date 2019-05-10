@@ -90,8 +90,8 @@ function theme_uvt_pluginfile($course, $cm, $context, $filearea, $args, $forcedo
 function theme_uvt_get_main_scss_content($theme) {
     global $CFG;
     $scss = '';
-        $scss .= file_get_contents($CFG->dirroot . '/theme/boost/scss/preset/default.scss');
-        $scss .= file_get_contents($CFG->dirroot . '/theme/uvt/scss/default.scss');
+    $scss .= file_get_contents($CFG->dirroot . '/theme/boost/scss/preset/default.scss');
+    $scss .= file_get_contents($CFG->dirroot . '/theme/uvt/scss/default.scss');
     return $scss;
 }
 

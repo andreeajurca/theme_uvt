@@ -49,8 +49,8 @@ $THEME->layouts = [
     ),
     // Main course page.
     'course' => array(
-        'file' => 'columns2.php',
-        'regions' => array('side-pre'),
+        'file' => 'mycourse.php',
+        'regions' => array('side-pre','left','right'),
         'defaultregion' => 'side-pre',
         'options' => array('langmenu' => true),
     ),
@@ -80,8 +80,8 @@ $THEME->layouts = [
     ),
     // My dashboard page.
     'mydashboard' => array(
-        'file' => 'columns2.php',
-        'regions' => array('side-pre'),
+        'file' => 'mydashboard.php',
+        'regions' => array('side-pre',"my-region"),
         'defaultregion' => 'side-pre',
         'options' => array('nonavbar' => true, 'langmenu' => true, 'nocontextheader' => true),
     ),

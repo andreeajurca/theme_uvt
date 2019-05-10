@@ -1,30 +1,121 @@
+$generalcolor: #2a293e;
+$secondarycolor: #e4ac23;
 
 body {
-    color:red;
+  background-color: $generalcolor;
 }
-#page-footer {
-    height: 100px;
-    background-color: blue;
-}
-#page-login-index{
-    #region-main-box{ 
-        background-image: url("/theme/uvt/images/night.jpg");
-    }
-    .col-xl-3{ 
-        .card{
-            border-radius: 20px;
-            form{
-            .row{
-                
-                    justify-content: center;
-                    align-items: baseline;
-                }
-            }
-        }
-        }
-    }
 
-.carousel-inner img {
-width: 100%;
-height: 380px;
+#page-footer {
+  background-color: $generalcolor !important;
+  color: white;
+  border-top: 1px solid $secondarycolor !important;
+}
+
+#nav-drawer {
+  background-color: $generalcolor;
+}
+#page-login-index {
+  #region-main-box {
+    background-image: url("/theme/uvt/images/night1.jpg");
+  }
+
+  .col-xl-3 {
+    .card {
+      border-radius: 20px;
+
+      form {
+        .row {
+          justify-content: center;
+          align-items: baseline;
+        }
+      }
+    }
+  }
+}
+
+.fixed-top {
+  background-color: #2a293e !important;
+
+  a {
+    color: white !important;
+  }
+
+  .usermenu {
+    .dropdown-menu {
+      background-color: $generalcolor !important;
+    }
+  }
+
+  .fa-bell {
+    color: white !important;
+  }
+
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: $secondarycolor !important;
+  }
+
+  .navbar-nav {
+    .dropdown-menu {
+      background-color: $generalcolor !important;
+    }
+  }
+}
+
+.col-md-5.row.p-0.event {
+  .title {
+    font-size: 18px;
+  }
+  .location {
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+  .description {
+    margin-bottom: 20px;
+  }
+  .eventdate {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: white;
+  }
+
+  .card {
+    width: auto;
+    color: white;
+    background-color: $generalcolor;
+  }
+}
+
+.navbar .navbar-nav .nav-item:hover {
+  background-color: $secondarycolor !important;
+}
+
+.tool_dataprivacy,
+.purgecaches {
+  display: none !important;
+}
+
+.navbar button[data-action="toggle-drawer"] {
+  background-color: #ffff !important;
+}
+
+#nav-drawer .list-group-item {
+  background-color: $generalcolor;
+  border: 1px solid rgba(255, 255, 255, 0.125) !important;
+  color: #fff !important;
+}
+
+#page-my-index {
+  background-color: $generalcolor !important;
+}
+.navbar {
+  box-shadow: 0px 2px 0px 0px $secondarycolor !important;
+}
+
+#page-site-index #region-main-box,
+#page-site-index #page-header {
+  display: none !important;
 }
