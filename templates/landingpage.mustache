@@ -60,103 +60,91 @@
 
     <div id="page" class="container-fluid">
         {{{ output.full_header }}}
-<h1> {{{slidetext}}}</h1>
 
 
-
-<link rel="stylesheet" href="{{config.wwwroot}}/theme/uvt/javascript/swiper.min.css">
-
- <div class="swiper-container">
+<link rel="stylesheet" href="{{config.wwwroot}}/theme/uvt/css/swiper.min.css">
+<link rel="stylesheet" href="{{config.wwwroot}}/theme/uvt/css/swiper.css">
+<div style="width:1280px !important;margin:auto !important">
+  <div class="swiper-container mt-2">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/download.jpg" alt="download" width="1100" height="500"></div>
-      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/uvt1.jpg" alt="Los Angeles" width="1100" height="500"></div>
-      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/uvt2.jpg" alt="Chicago" width="1100" height="500"></div>
-      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/uvt3.jpg" alt="New York" width="1100" height="500"></div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
+      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/uvt.jpg" alt="download" style="width:100%;height:500px"></div>
+      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/uvt.jpg" alt="download" style="width:100%;height:500px"></div>
+      <div class="swiper-slide"> <img src="{{config.wwwroot}}/theme/uvt/images/uvt.jpg" alt="download" style="width:100%;height:500px"></div>     
+    </div> 
+    
+    <div class="swiper-pagination"></div> 
+ 
+   <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
-
- <script src="{{config.wwwroot}}/theme/uvt/javascript/swiper.min.js"></script>
- <script src="{{config.wwwroot}}/theme/uvt/javascript/swiper.js"></script>
-<script src="{{config.wwwroot}}/theme/uvt/javascript/swiper.min.css"></script>
-
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      loop:true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
+</div>
  
- <div class="d-flex">
-<div class="col-md-3  m-auto text-center">
-    <div class="icon m-auto"> 
-    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+<div class="d-flex my-5" style="color:white !important;max-width:1280px;margin:auto">
+
+  <div class="col-md-3 col-sm-6 marketspot">
+    <div> 
+      <i class="fa fa-check-square-o" aria-hidden="true" style="font-size:40px"></i>
     </div>
     <div class="title" style="font-size:20px"> 
-    title 
-    <p> title </p>
+      <h3>Modern and vibrant design</h3>      
     </div>
     <div class="text"> 
-    <p style="color:blue"> text  </p> 
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+       </p> 
+    </div>
+  </div>
 
+  <div class="col-md-3 col-sm-6 marketspot">
+    <div> 
+      <i class="fa fa-check-square-o" aria-hidden="true" style="font-size:40px"></i>
     </div>
-</div>
-<div class="col-md-3">
-    <div class="icon"> 
-    icon
-    </div>
-    <div class="title"> 
-    title
+    <div class="title" style="font-size:20px"> 
+      <h3>Modern and vibrant design</h3>      
     </div>
     <div class="text"> 
-    text
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+       </p> 
     </div>
-</div>
-<div class="col-md-3">
-    <div class="icon"> 
-    icon
+  </div>
+
+  <div class="col-md-3 col-sm-6 marketspot">
+    <div> 
+      <i class="fa fa-check-square-o" aria-hidden="true" style="font-size:40px"></i>
     </div>
-    <div class="title"> 
-    title
-    </div>
-    <div class="text"> 
-    text
-    </div>
-</div>
-<div class="col-md-3">
-    <div class="icon"> 
-    icon
-    </div>
-    <div class="title"> 
-    title
+    <div class="title" style="font-size:20px"> 
+      <h3>Modern and vibrant design</h3>      
     </div>
     <div class="text"> 
-    text
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+       </p> 
     </div>
-</div>
+  </div>
+
+  <div class="col-md-3 col-sm-6 marketspot">
+    <div> 
+      <i class="fa fa-check-square-o" aria-hidden="true" style="font-size:40px"></i>
+    </div>
+    <div class="title" style="font-size:20px"> 
+      <h3>Modern and vibrant design</h3>      
+    </div>
+    <div class="text"> 
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+       </p> 
+    </div>
+  </div>
+
 </div>
 
-<div class="events">
+<div class="events" style="max-width:1600px;margin:auto">
   <div class="container-fluid">
-    <h6> ALL ABOUT EVENT UPDATES</h6>
-    <h2>Upcoming events</h2>
+    <div>
+    <h6 style="color:white"> ALL ABOUT EVENT UPDATES</h6>
+    <h2 style="color:white">Upcoming events</h2>
+    </div>
     <div class="row p-0 justify-content-center">
 
       <div class ="col-md-5 row p-0 event m-2">
