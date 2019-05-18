@@ -97,7 +97,7 @@ body {
   display: none !important;
 }
 
-.navbar button[data-action='toggle-drawer'] {
+.navbar button[data-action="toggle-drawer"] {
   background-color: #ffff !important;
 }
 
@@ -130,8 +130,8 @@ body {
   height: 200px;
 }
 body {
-  font-family: 'Stylish', sans-serif !important;
-  font-family: 'Pacifico', cursive !important;
+  font-family: "Stylish", sans-serif !important;
+  font-family: "Pacifico", cursive !important;
 }
 
 @media screen and (max-width: 1600px) {
