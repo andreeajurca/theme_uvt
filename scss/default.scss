@@ -16,7 +16,6 @@ body {
 }
 #page-login-index {
   #region-main-box {
-    background-image: url("/theme/uvt/images/night1.jpg");
   }
 
   .col-xl-3 {
@@ -98,7 +97,7 @@ body {
   display: none !important;
 }
 
-.navbar button[data-action="toggle-drawer"] {
+.navbar button[data-action='toggle-drawer'] {
   background-color: #ffff !important;
 }
 
@@ -118,4 +117,28 @@ body {
 #page-site-index #region-main-box,
 #page-site-index #page-header {
   display: none !important;
+}
+
+.marketspot:hover {
+  color: $secondarycolor;
+  background: white;
+  transition: 0.3s;
+  border: 1px solid;
+}
+.marketspot {
+  border: 1px solid white;
+  height: 200px;
+}
+body {
+  font-family: 'Stylish', sans-serif !important;
+  font-family: 'Pacifico', cursive !important;
+}
+
+@media screen and (max-width: 1600px) {
+  #slider {
+    width: 100% !important;
+  }
+  .swiper-container {
+    height: 50vh;
+  }
 }
