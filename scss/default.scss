@@ -97,7 +97,7 @@ body {
   display: none !important;
 }
 
-.navbar button[data-action='toggle-drawer'] {
+.navbar button[data-action="toggle-drawer"] {
   background-color: #ffff !important;
 }
 
@@ -128,4 +128,21 @@ body {
 .marketspot {
   border: 1px solid white;
   height: 200px;
+}
+.statistics {
+  color: white;
+  font-size: 20px;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  margin-top: 23px;
+  margin-bottom: 20px;
+}
+.statistics .fa {
+  font-size: 35px;
+}
+.statistics .card {
+  background-color: $generalcolor !important;
+}
+.statistics .card-body {
+  background-color: #626ed4 !important;
 }
