@@ -15,9 +15,6 @@ body {
   background-color: $generalcolor;
 }
 #page-login-index {
-  #region-main-box {
-  }
-
   .col-xl-3 {
     .card {
       border-radius: 20px;
@@ -139,14 +136,14 @@ body {
   margin-bottom: 20px;
 }
 .statistics .fa {
-  font-size: 35px;
+  font-size: 50px;
 }
 .statistics .card {
   background-color: $generalcolor !important;
 }
 .statistics .card-body {
   background-color: #626ed4 !important;
-
+}
 body {
   font-family: "Stylish", sans-serif !important;
   font-family: "Pacifico", cursive !important;
@@ -159,4 +156,15 @@ body {
   .swiper-container {
     height: 50vh;
   }
+}
+
+.parteners img {
+  max-width: 100% !important;
+  width: 70%;
+  height: 130px;
+  max-height: 130px !important;
+}
+
+#theme_switch_link {
+  display: none !important;
 }

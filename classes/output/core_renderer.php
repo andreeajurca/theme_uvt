@@ -690,4 +690,37 @@ class core_renderer extends \core_renderer {
     public function secure_login_info() {
         return $this->login_info(false);
     }
+
+    public function isuserloggedin() {
+        global $DB;
+        return isloggedin();
+    }
+
+    public function getAllUsers() {
+        global $DB;
+
+        $obj = $DB->get_record_sql('SELECT COUNT(id) as nr FROM mdl_user WHERE id>1 AND confirmed=1 AND deleted=0 AND suspended=0');
+        return $obj->nr;
+    }
+
+    public function getAllCourses() {
+        global $DB;
+
+        $obj = $DB->get_record_sql('SELECT COUNT(id) as nr FROM `mdl_course` WHERE id>1 AND visible=1');
+        return $obj->nr;
+    }
+
+    public function getAllResources() {
+        global $DB;
+
+        $obj = $DB->get_record_sql('SELECT COUNT(id) as nr FROM `mdl_course_modules` WHERE visible=1');
+        return $obj->nr;
+    }
+
+    public function getAllAccesses() {
+        global $DB;
+
+        $obj = $DB->get_record_sql('SELECT COUNT(id) as nr FROM `mdl_logstore_standard_log`');
+        return $obj->nr;
+    }
 }

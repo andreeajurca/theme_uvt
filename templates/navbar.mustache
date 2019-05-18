@@ -50,10 +50,21 @@
             <li class="nav-item">
             {{{ output.navbar_plugin_output }}}
             </li>
+
+
             <!-- user_menu -->
-            <li class="nav-item d-flex align-items-center">
-               <a class="btn btn-primary" href="{{config.wwwroot}}/login/index.php">{{# str }} login {{/ str }}</a>
-            </li>
+            
+            {{# output.isuserloggedin }}
+                <li class="nav-item custom-lang d-flex align-items-center">
+                    {{{ output.user_menu }}}
+                </li>
+            {{/ output.isuserloggedin }}
+
+            {{^ output.isuserloggedin }}
+                <li class="nav-item d-flex align-items-center">
+                <a class="btn btn-primary" href="{{config.wwwroot}}/login/index.php">{{# str }} login {{/ str }}</a>
+                </li>
+            {{/ output.isuserloggedin }}
         </ul>
         <!-- search_box -->
 </nav>
